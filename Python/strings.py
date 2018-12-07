@@ -10,4 +10,14 @@ def main():
     alphabet == alphabet[::]
     alphabet[11::3].capitalize() + ", close to Lorax :)"
     alphabet[::-1]  # conventiently reverses a string
+
+    # Strings are immutable; variables that hold strings must be reassigned to change their value.
+    x = "Hello world"
+    x += "! It's a pleasant day"
+    x.split()
+    x = "X" * 26
+    x
+    x = x.lower()
+    x.split('x')    # a whole lotta empty strings - a tad obnoxious
+
 main()
